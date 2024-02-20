@@ -4,12 +4,12 @@ import { ReactNode } from "react";
 
 export default function Dashboadr({ children }: { children: ReactNode }) {
     return (
-        <div className="p-8 mx-auto w-full max-w-[1600px] min-h-screen">
+        <div >
+            <main className="p-8 mx-auto w-full max-w-[1600px] min-h-screen">
             <Nav />
-            <main className="flex-grow">
                 {children}
             </main>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

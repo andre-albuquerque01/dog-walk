@@ -6,8 +6,8 @@ export const Footer = () => {
         return data.getFullYear();
     }
     return (
-        <div className="fixed bottom-0 mx-auto text-center ">
-            <p className='text-md'>
+        <div className="bottom-0 w-full text-center md:mt-[-30px]">
+            <p className='text-sm'>
                 &copy; Todos os direitos reservado - {hanldeData()}
             </p>
         </div>
