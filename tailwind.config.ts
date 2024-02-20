@@ -14,6 +14,9 @@ const config: Config = {
       gridTemplateRows: {
         app: 'min-content max-content',
       },
+      colors: {
+        customGreen: '#34AF23',
+      }
     },
   },
   plugins: [],
