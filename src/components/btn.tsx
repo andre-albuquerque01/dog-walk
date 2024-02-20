@@ -6,7 +6,7 @@ export const Btn = () => {
     return (
         <div >
             <Link href="https://api.whatsapp.com/send?phone=5561985261944&text=Ol%C3%A1!%20Estou%20super%20interessado%20em%20saber%20como%20funciona%20o%20servi%C3%A7o%20de%20passeio%20com%20cachorro!%20%F0%9F%90%BE%20Poderia%20me%20enviar%20mais%20informa%C3%A7%C3%B5es?" target="_blank"
-                className='flex items-center justify-center gap-4 bg-customGreen h-[50px] w-[200px] rounded-xl'
+                className='flex items-center justify-center gap-4 bg-customGreen h-[50px] w-[200px] rounded-xl text-md'
             >
                 <Image
                     src="/whatsapp.png"
